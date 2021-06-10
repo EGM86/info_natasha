@@ -1,0 +1,114 @@
+{
+  "main": {
+    "id": "183ead5db5a48861",
+    "type": "split",
+    "children": [
+      {
+        "id": "d127f908bd2b9aa9",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "663ecca01af7d621",
+    "type": "split",
+    "children": [
+      {
+        "id": "eed65a80effef840",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a4e7b18eb855539",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c35ff77926b293e6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "23459d6d578407ab",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0ec6b97232bd29a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "f637d8e9c3e12c33",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9dc24ee1ab4575fb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "615e42208c04bd8b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "d127f908bd2b9aa9",
+  "lastOpenFiles": [
+    "theory/map_ML/classic_ML.md",
+    "theory/map_ML/supervised_learning.md",
+    "theory/map_ML/regression.md",
+    "theory/map_ML/classification.md",
+    "theory/map_ML/unsupervised_learning.md",
+    "theory/map_ML/00_introduction.md",
+    "theory/map_ML/ensemble learning.md",
+    "theory/map_ML/introduction.md",
+    "theory/map_ML/naive bayes.md",
+    "theory/math_ML/math.md"
+  ]
+}
