@@ -1,4 +1,4 @@
-[[natasha_project]]
+[[00_natasha_project]]
 # Navec — компактные эмбеддинги для русского языка
 
 [Библиотека Navec](https://github.com/natasha/navec) — часть [проекта Natasha](https://github.com/natasha), коллекция предобученных эмбеддингов для русского языка. Качество решения сравнимо или выше, чем у статических моделей от RusVectores, размер в 5–6 раз меньше.

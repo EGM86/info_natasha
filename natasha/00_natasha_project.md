@@ -10,13 +10,13 @@ Natasha ([Slovnet NER](https://github.com/natasha/slovnet#ner)) = [Slovnet BERT 
 
 Natasha объединяет под одним интерфейсом другие библиотеки проекта. Natasha хороша для демонстрации технологий. В работе стоит использовать низкоуровневые библиотеки напрямую:
 
--   [[razdel]] (https://github.com/natasha/razdel) — сегментация текста на предложения и токены;
--   [[navec]] (https://github.com/natasha/navec) — качественные компактные эмбеддинги;
--   [[slovnet]] (https://github.com/natasha/slovnet) — современные компактные модели для морфологии, синтаксиса, NER;
+-   [[01_razdel]] (https://github.com/natasha/razdel) — сегментация текста на предложения и токены;
+-   [[02_navec]] (https://github.com/natasha/navec) — качественные компактные эмбеддинги;
+-   [[03_slovnet]] (https://github.com/natasha/slovnet) — современные компактные модели для морфологии, синтаксиса, NER;
 -   [Yargy](https://github.com/natasha/yargy) — правила и словари для извлечения структурированной информации;
--   [[ipymarkup]] (https://github.com/natasha/ipymarkup) — визуализация NER и синтаксической разметки;
+-   [[04_ipymarkup]] (https://github.com/natasha/ipymarkup) — визуализация NER и синтаксической разметки;
 -   [Corus](https://github.com/natasha/corus) — коллекция ссылок на публичные русскоязычные датасеты;
--   [[nerus]] (https://github.com/natasha/nerus) — большой корпус с автоматической разметкой именованных сущностей, морфологии и синтаксиса.
+-   [[05_nerus]] (https://github.com/natasha/nerus) — большой корпус с автоматической разметкой именованных сущностей, морфологии и синтаксиса.
 
 Natasha извлекает стандартные сущности: имена (PER), названия топонимов (LOC) и организаций (ORG). Решение показывает хорошее качество на новостях. 
 Для работы с другими сущностями и типами текстов нужно обучить новую модель.  Компактный размер и скорость работы =  сложность подготовки модели. [Скрипт-ноутбук для подготовки тяжёлой модели учителя](https://github.com/natasha/slovnet/blob/master/scripts/02_bert_ner/main.ipynb), [скрипт-ноутбук для модели-ученика](https://github.com/natasha/slovnet/blob/master/scripts/05_ner/main.ipynb), [инструкции по подготовке квантованных эмбеддингов](https://github.com/natasha/navec#development).

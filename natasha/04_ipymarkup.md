@@ -1,5 +1,5 @@
-[[natasha_project]]
-[[slovnet.Syntax]]
+[[00_natasha_project]]
+[[03.3_slovnet.Syntax]]
 # ipymarkup
 
 ![](https://github.com/natasha/ipymarkup/raw/master/table.png){:height="360px" width="360px"}

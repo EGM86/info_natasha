@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "natasha/navec.md",
+            "file": "natasha/00_natasha_project.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "natasha/navec.md",
+                "file": "natasha/00_natasha_project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "3ca297ddd793dfe4",
   "lastOpenFiles": [
-    "natasha/navec.md",
-    "natasha/nerus.md",
-    "natasha/0.0_natasha.md",
-    "natasha/slovnet.md",
+    "natasha/00_natasha_project.md",
+    "natasha/ipymarkup.md",
     "natasha/slovnet.Syntax.md",
-    "natasha/slovnet.Morphology.md",
+    "natasha/natasha_project.md",
+    "natasha/nerus.md",
+    "natasha/navec.md",
     "natasha/slovnet.NER.md",
-    "Untitled.md",
-    "Untitled 1.md",
+    "natasha/slovnet.Morphology.md",
+    "natasha/slovnet.md",
     "natasha/razdel.md"
   ]
 }

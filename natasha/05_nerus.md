@@ -1,7 +1,7 @@
-[[natasha_project]]
-[[slovnet.NER]]
-[[slovnet.Morphology]]
-[[slovnet.Syntax]]
+[[00_natasha_project]]
+[[03.1_slovnet.NER]]
+[[03.2_slovnet.Morphology]]
+[[03.3_slovnet.Syntax]]
 
 # Nerus — большой синтетический русскоязычный датасет с разметкой морфологии, синтаксиса и именованных сущностей
 
