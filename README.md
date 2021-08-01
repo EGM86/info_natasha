@@ -1,1 +1,1 @@
-# obsidian_vault
+# info about natasha
