@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "natasha/00_natasha_project.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -89,14 +89,14 @@
   "active": "3ca297ddd793dfe4",
   "lastOpenFiles": [
     "natasha/00_natasha_project.md",
+    "Untitled.md",
+    "natasha/01_razdel.md",
+    "natasha/03.1_slovnet.NER.md",
     "natasha/ipymarkup.md",
     "natasha/slovnet.Syntax.md",
     "natasha/natasha_project.md",
     "natasha/nerus.md",
     "natasha/navec.md",
-    "natasha/slovnet.NER.md",
-    "natasha/slovnet.Morphology.md",
-    "natasha/slovnet.md",
-    "natasha/razdel.md"
+    "natasha/slovnet.NER.md"
   ]
 }
