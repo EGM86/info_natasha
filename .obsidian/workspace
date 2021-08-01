@@ -1,29 +1,32 @@
 {
   "main": {
-    "id": "183ead5db5a48861",
+    "id": "2676d89578ac5c04",
     "type": "split",
     "children": [
       {
-        "id": "d127f908bd2b9aa9",
+        "id": "3ca297ddd793dfe4",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "natasha/navec.md",
+            "mode": "preview"
+          }
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "663ecca01af7d621",
+    "id": "1397be414055f649",
     "type": "split",
     "children": [
       {
-        "id": "eed65a80effef840",
+        "id": "9c63bf82bb68f3bf",
         "type": "tabs",
         "children": [
           {
-            "id": "8a4e7b18eb855539",
+            "id": "7ae7487ce33b8962",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -31,7 +34,7 @@
             }
           },
           {
-            "id": "c35ff77926b293e6",
+            "id": "ee009fe11062cf1e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -44,14 +47,6 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "23459d6d578407ab",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
           }
         ]
       }
@@ -60,19 +55,20 @@
     "width": 300
   },
   "right": {
-    "id": "0ec6b97232bd29a3",
+    "id": "6961026b838f99d0",
     "type": "split",
     "children": [
       {
-        "id": "f637d8e9c3e12c33",
+        "id": "7ec1ad5d30134b22",
         "type": "tabs",
         "children": [
           {
-            "id": "9dc24ee1ab4575fb",
+            "id": "48edfdbf9c44fe05",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "natasha/navec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,14 +78,6 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "615e42208c04bd8b",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
           }
         ]
       }
@@ -98,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d127f908bd2b9aa9",
+  "active": "3ca297ddd793dfe4",
   "lastOpenFiles": [
-    "theory/map_ML/classic_ML.md",
-    "theory/map_ML/supervised_learning.md",
-    "theory/map_ML/regression.md",
-    "theory/map_ML/classification.md",
-    "theory/map_ML/unsupervised_learning.md",
-    "theory/map_ML/00_introduction.md",
-    "theory/map_ML/ensemble learning.md",
-    "theory/map_ML/introduction.md",
-    "theory/map_ML/naive bayes.md",
-    "theory/math_ML/math.md"
+    "natasha/navec.md",
+    "natasha/nerus.md",
+    "natasha/0.0_natasha.md",
+    "natasha/slovnet.md",
+    "natasha/slovnet.Syntax.md",
+    "natasha/slovnet.Morphology.md",
+    "natasha/slovnet.NER.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "natasha/razdel.md"
   ]
 }

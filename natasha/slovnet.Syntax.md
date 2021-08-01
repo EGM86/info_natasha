@@ -1,0 +1,70 @@
+
+[[slovnet]]
+# Syntax
+
+Синтаксический парсер обрабатывает предложения, разбитые на токены. Используется  [[razdel]] для сегментации.
+
+```
+from ipymarkup import show_dep_ascii_markup as show_markup
+from razdel import sentenize, tokenize
+from navec import Navec
+from slovnet import Syntax
+
+chunk = []
+for sent in sentenize(text):
+    tokens = [_.text for _ in tokenize(sent.text)]
+	chunk.append(tokens)
+chunk[:1]
+[['Европейский', 'союз', 'добавил', 'в', 'санкционный', 'список', 'девять', 'политических', 'деятелей', 'из', 'самопровозглашенных', 'республик', 'Донбасса', '—', 'Донецкой', 'народной', 'республики', '(', 'ДНР', ')', 'и', 'Луганской', 'народной', 'республики', '(', 'ЛНР', ')', '—', 'в', 'связи', 'с', 'прошедшими', 'там', 'выборами', '.']]
+
+navec = Navec.load('navec_news_v1_1B_250K_300d_100q.tar')
+syntax = Syntax.load('slovnet_syntax_news_v1.tar')
+syntax.navec(navec)
+
+markup = next(syntax.map(chunk))
+
+# Convert CoNLL-style format to source, target indices
+words, deps = [], []
+for token in markup.tokens:
+    words.append(token.text)
+    source = int(token.head_id) - 1
+    target = int(token.id) - 1
+    if source > 0 and source != target:  # skip root, loops
+        deps.append([source, target, token.rel])
+show_markup(words, deps)
+              ┌► Европейский         amod
+            ┌►└─ союз                nsubj
+┌───────┌─┌─└─── добавил             
+│       │ │ ┌──► в                   case
+│       │ │ │ ┌► санкционный         amod
+│       │ └►└─└─ список              obl
+│       │   ┌──► девять              nummod:gov
+│       │   │ ┌► политических        amod
+│ ┌─────└►┌─└─└─ деятелей            obj
+│ │       │ ┌──► из                  case
+│ │       │ │ ┌► самопровозглашенных amod
+│ │       └►└─└─ республик           nmod
+│ │         └──► Донбасса            nmod
+│ │ ┌──────────► —                   punct
+│ │ │       ┌──► Донецкой            amod
+│ │ │       │ ┌► народной            amod
+│ │ │ ┌─┌─┌─└─└─ республики          
+│ │ │ │ │ │   ┌► (                   punct
+│ │ │ │ │ └►┌─└─ ДНР                 parataxis
+│ │ │ │ │   └──► )                   punct
+│ │ │ │ │ ┌────► и                   cc
+│ │ │ │ │ │ ┌──► Луганской           amod
+│ │ │ │ │ │ │ ┌► народной            amod
+│ │ └─│ └►└─└─└─ республики          conj
+│ │   │       ┌► (                   punct
+│ │   └────►┌─└─ ЛНР                 parataxis
+│ │         └──► )                   punct
+│ │     ┌──────► —                   punct
+│ │     │ ┌►┌─┌─ в                   case
+│ │     │ │ │ └► связи               fixed
+│ │     │ │ └──► с                   fixed
+│ │     │ │ ┌►┌─ прошедшими          acl
+│ │     │ │ │ └► там                 advmod
+│ └────►└─└─└─── выборами            nmod
+└──────────────► .                   punct
+```
